@@ -1,0 +1,585 @@
+{
+  "segments": [
+    {
+      "sid": "S-PN-MUESLI",
+      "type": "product_name",
+      "title": "什锦燕麦片 品名",
+      "countries": [
+        "CN"
+      ],
+      "categories": [
+        "麦片"
+      ],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "什锦燕麦片",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787352150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-ING-MUESLI",
+      "type": "ingredients",
+      "title": "什锦燕麦片 配料",
+      "countries": [
+        "CN"
+      ],
+      "categories": [
+        "麦片"
+      ],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "燕麦片（含麸质谷物）、扁桃仁（坚果）、全脂乳粉（乳）、白砂糖、食用盐",
+      "ingredients": [
+        {
+          "name": "燕麦片",
+          "pct": 55,
+          "allergens": [
+            "gluten"
+          ]
+        },
+        {
+          "name": "扁桃仁",
+          "pct": 18,
+          "allergens": [
+            "nut"
+          ]
+        },
+        {
+          "name": "全脂乳粉",
+          "pct": 12,
+          "allergens": [
+            "milk"
+          ]
+        },
+        {
+          "name": "白砂糖",
+          "pct": 14,
+          "allergens": []
+        },
+        {
+          "name": "食用盐",
+          "pct": 1,
+          "allergens": []
+        }
+      ],
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787352150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-WARN-NUT-CN",
+      "type": "warning",
+      "title": "坚果过敏警示(中)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "本品含有坚果，对此过敏者请勿食用。生产线同时加工花生制品。",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": "nut_warning",
+      "allergens": [
+        "nut",
+        "peanut"
+      ],
+      "version": 1,
+      "created_at": 1788216150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-WARN-PEANUT-CN",
+      "type": "warning",
+      "title": "花生过敏警示(中)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [],
+      "text": "本品含有花生，花生过敏者严禁食用。",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": "peanut_warning",
+      "allergens": [
+        "peanut"
+      ],
+      "version": 1,
+      "created_at": 1788216150,
+      "updated_at": 1789771350
+    },
+    {
+      "sid": "S-WARN-NUT-CN-STRICT",
+      "type": "warning",
+      "title": "坚果过敏严禁(中·旧口径)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "本品含有坚果，坚果过敏者严禁食用。",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": "strict_warning",
+      "allergens": [
+        "nut"
+      ],
+      "version": 1,
+      "created_at": 1786488150,
+      "updated_at": 1786488150
+    },
+    {
+      "sid": "S-WARN-MILK-US",
+      "type": "allergen",
+      "title": "FALCPA Contains 声明",
+      "countries": [
+        "US"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P2"
+      ],
+      "text": "Contains: Wheat, Tree Nuts, Milk.",
+      "lang": "en",
+      "status": "final",
+      "mutex_group": null,
+      "allergens": [
+        "gluten",
+        "nut",
+        "milk"
+      ],
+      "version": 1,
+      "created_at": 1787784150,
+      "updated_at": 1787784150
+    },
+    {
+      "sid": "S-WARN-NUT-CN-2027",
+      "type": "warning",
+      "title": "坚果过敏警示(2027新规草案)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "本品含坚果及花生，对坚果或花生过敏者禁止食用。（依据2027标识新规草案）",
+      "lang": "zh",
+      "status": "draft",
+      "mutex_group": "nut_warning_v2",
+      "allergens": [
+        "nut",
+        "peanut"
+      ],
+      "version": 1,
+      "created_at": 1789857750,
+      "updated_at": 1789857750
+    },
+    {
+      "sid": "S-ORIGIN-CN",
+      "type": "origin",
+      "title": "原产地：中国",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "text": "原产地：中国河北",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787352150,
+      "updated_at": 1789080150
+    },
+    {
+      "sid": "S-STORE-DRY",
+      "type": "storage",
+      "title": "阴凉干燥储存",
+      "countries": [],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "text": "置于阴凉干燥处，避免阳光直射。开封后请密封并尽快食用。",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787352150,
+      "updated_at": 1789080150
+    },
+    {
+      "sid": "S-MFR-CN",
+      "type": "manufacturer",
+      "title": "生产商信息(华北)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "生产商：华北谷物食品有限公司；地址：河北省石家庄市工业园8号；电话：0311-88888888",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787352150,
+      "updated_at": 1789080150
+    },
+    {
+      "sid": "S-PN-MUESLI-EU",
+      "type": "product_name",
+      "title": "Muesli Product Name",
+      "countries": [
+        "EU",
+        "US"
+      ],
+      "categories": [
+        "cereal"
+      ],
+      "specs": [],
+      "products": [
+        "P1"
+      ],
+      "text": "Classic Muesli",
+      "lang": "en",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787784150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-ING-MUESLI-EU",
+      "type": "ingredients",
+      "title": "Muesli Ingredients",
+      "countries": [
+        "EU",
+        "US"
+      ],
+      "categories": [
+        "cereal"
+      ],
+      "specs": [],
+      "products": [
+        "P1"
+      ],
+      "text": "oat flakes 55%, sugar 14%, almonds 18%, whole milk powder 12%, salt",
+      "ingredients": [
+        {
+          "name": "oat flakes",
+          "pct": 55,
+          "allergens": [
+            "gluten"
+          ]
+        },
+        {
+          "name": "sugar",
+          "pct": 14,
+          "allergens": []
+        },
+        {
+          "name": "almonds",
+          "pct": 18,
+          "allergens": [
+            "nut"
+          ]
+        },
+        {
+          "name": "whole milk powder",
+          "pct": 12,
+          "allergens": [
+            "milk"
+          ]
+        },
+        {
+          "name": "salt",
+          "pct": null,
+          "allergens": []
+        }
+      ],
+      "lang": "en",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787784150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-WARN-NUT-EU",
+      "type": "warning",
+      "title": "Nut Warning EN",
+      "countries": [
+        "EU",
+        "US"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1"
+      ],
+      "text": "May contain traces of peanuts. Contains nuts and milk.",
+      "lang": "en",
+      "status": "final",
+      "mutex_group": "nut_warning",
+      "allergens": [
+        "nut",
+        "milk",
+        "peanut"
+      ],
+      "version": 1,
+      "created_at": 1787784150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-ORIGIN-EU",
+      "type": "origin",
+      "title": "Origin CN (EN)",
+      "countries": [
+        "EU",
+        "US"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1"
+      ],
+      "text": "Origin: China",
+      "lang": "en",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787784150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-MFR-EU",
+      "type": "manufacturer",
+      "title": "Manufacturer EN",
+      "countries": [
+        "EU",
+        "US"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1"
+      ],
+      "text": "Manufactured for: Global Foods Trading GmbH, Hamburg, Germany",
+      "lang": "en",
+      "status": "final",
+      "mutex_group": null,
+      "version": 1,
+      "created_at": 1787784150,
+      "updated_at": 1789512150
+    },
+    {
+      "sid": "S-CLAIM-NONGMO",
+      "type": "claim",
+      "title": "非转基因声明(中)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [
+        "P1",
+        "P3"
+      ],
+      "text": "本产品未使用转基因原料。",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": "gmo_claim",
+      "version": 1,
+      "created_at": 1788648150,
+      "updated_at": 1788648150
+    },
+    {
+      "sid": "S-CLAIM-GMO",
+      "type": "claim",
+      "title": "含转基因原料声明(中)",
+      "countries": [
+        "CN"
+      ],
+      "categories": [],
+      "specs": [],
+      "products": [],
+      "text": "本产品加工原料中有转基因大豆。",
+      "lang": "zh",
+      "status": "final",
+      "mutex_group": "gmo_claim",
+      "version": 1,
+      "created_at": 1788648150,
+      "updated_at": 1788648150
+    }
+  ],
+  "products": [
+    {
+      "pid": "P1",
+      "name": "经典什锦燕麦片",
+      "category": "麦片",
+      "spec": "500g 袋装",
+      "category_en": "cereal",
+      "spec_en": "500g bag",
+      "printed_qty": 120000,
+      "intransit_qty": 35000,
+      "unit_cost": 0.12
+    },
+    {
+      "pid": "P2",
+      "name": "原味纯燕麦片",
+      "category": "麦片",
+      "spec": "1kg 袋装",
+      "category_en": "cereal",
+      "spec_en": "1kg bag",
+      "printed_qty": 80000,
+      "intransit_qty": 12000,
+      "unit_cost": 0.18
+    },
+    {
+      "pid": "P3",
+      "name": "坚果燕麦片(家庭装)",
+      "category": "麦片",
+      "spec": "800g 盒装",
+      "category_en": "cereal",
+      "spec_en": "800g box",
+      "printed_qty": 46000,
+      "intransit_qty": 9000,
+      "unit_cost": 0.21
+    }
+  ],
+  "labels": [
+    {
+      "lid": "L1",
+      "product_id": "P1",
+      "country": "CN",
+      "segment_map": {
+        "product_name": "S-PN-MUESLI",
+        "ingredients": "S-ING-MUESLI",
+        "warning": "S-WARN-NUT-CN",
+        "origin": "S-ORIGIN-CN",
+        "storage": "S-STORE-DRY",
+        "manufacturer": "S-MFR-CN",
+        "claim": "S-CLAIM-NONGMO"
+      },
+      "versions": {
+        "S-ING-MUESLI": 1,
+        "S-WARN-NUT-CN": 1
+      },
+      "status": "final",
+      "rendered": [],
+      "created_at": 1789598550,
+      "updated_at": 1789598550
+    },
+    {
+      "lid": "L2",
+      "product_id": "P1",
+      "country": "EU",
+      "segment_map": {
+        "product_name": "S-PN-MUESLI-EU",
+        "ingredients": "S-ING-MUESLI-EU",
+        "warning": "S-WARN-NUT-EU",
+        "origin": "S-ORIGIN-EU",
+        "storage": "S-STORE-DRY",
+        "manufacturer": "S-MFR-EU"
+      },
+      "versions": {
+        "S-ING-MUESLI-EU": 1,
+        "S-WARN-NUT-EU": 1
+      },
+      "status": "final",
+      "rendered": [],
+      "created_at": 1789684950,
+      "updated_at": 1789684950
+    },
+    {
+      "lid": "L4",
+      "product_id": "P3",
+      "country": "CN",
+      "segment_map": {
+        "product_name": "S-PN-MUESLI",
+        "ingredients": "S-ING-MUESLI",
+        "warning": "S-WARN-NUT-CN",
+        "origin": "S-ORIGIN-CN",
+        "storage": "S-STORE-DRY",
+        "manufacturer": "S-MFR-CN",
+        "claim": "S-CLAIM-NONGMO"
+      },
+      "versions": {
+        "S-ING-MUESLI": 1,
+        "S-WARN-NUT-CN": 1
+      },
+      "status": "final",
+      "rendered": [],
+      "created_at": 1789771350,
+      "updated_at": 1789771350
+    },
+    {
+      "lid": "L3",
+      "product_id": "P2",
+      "country": "US",
+      "segment_map": {},
+      "versions": {},
+      "status": "draft",
+      "rendered": [],
+      "created_at": 1789857750,
+      "updated_at": 1789857750
+    }
+  ],
+  "label_versions": [],
+  "audit": [
+    {
+      "id": "A0",
+      "ts": 1789512150,
+      "actor": "system",
+      "action": "segments_reviewed",
+      "sid": null,
+      "lid": null,
+      "reason": "初始审核定稿",
+      "impact": [],
+      "detail": {}
+    }
+  ],
+  "counters": {
+    "segment": 20,
+    "label": 5,
+    "audit": 1
+  }
+}

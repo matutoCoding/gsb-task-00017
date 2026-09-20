@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>标签段落库与拼版</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">📦 标签合规拼版台</div>
+  <nav class="tabs">
+    <button class="tab active" data-tab="labels">标签拼版</button>
+    <button class="tab" data-tab="segments">段落库</button>
+    <button class="tab" data-tab="products">产品与库存</button>
+    <button class="tab" data-tab="audit">改动记录 / 旧版备查</button>
+  </nav>
+  <button id="btn-reset" class="ghost" title="恢复演示数据">重置演示数据</button>
+</header>
+
+<main>
+<!-- ============ 标签拼版 ============ -->
+<section id="tab-labels" class="tabpanel active">
+  <div class="toolbar">
+    <label>产品
+      <select id="combo-product"></select>
+    </label>
+    <label>目标市场
+      <select id="combo-country"></select>
+    </label>
+    <button id="btn-auto" class="primary">自动挑段</button>
+    <button id="btn-preview">整份预览</button>
+    <span id="combo-rule" class="rule-note"></span>
+  </div>
+
+  <div class="layout">
+    <div class="panel">
+      <h3>段落选择</h3>
+      <div id="slot-list"></div>
+    </div>
+    <div class="panel">
+      <h3>整份预览 <span id="preview-badge"></span></h3>
+      <div id="preview-alerts"></div>
+      <div id="label-preview" class="label-sheet">
+        <p class="placeholder">选好产品和市场后，从左侧挑段落，点「整份预览」。</p>
+      </div>
+      <div class="preview-actions">
+        <button id="btn-save-draft">存为草稿</button>
+        <button id="btn-finalize" class="primary">定稿拼版</button>
+        <span id="preview-status" class="rule-note"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:12px">
+    <h3>已建标签</h3>
+    <table id="label-table">
+      <thead><tr><th>标签</th><th>产品</th><th>市场</th><th>状态</th><th>冲突</th><th>更新</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 段落库 ============ -->
+<section id="tab-segments" class="tabpanel">
+  <div class="toolbar">
+    <input id="seg-search" placeholder="搜索标题 / 正文 / 编号">
+    <select id="seg-filter-type"><option value="">全部类型</option></select>
+    <select id="seg-filter-country"><option value="">全部市场</option></select>
+    <button id="btn-new-segment" class="primary">新建段落</button>
+  </div>
+  <div id="segment-cards" class="cards"></div>
+</section>
+
+<!-- ============ 产品 ============ -->
+<section id="tab-products" class="tabpanel">
+  <div class="toolbar">
+    <button id="btn-new-product" class="primary">新建产品</button>
+  </div>
+  <table id="product-table">
+    <thead><tr><th>编号</th><th>产品</th><th>品类</th><th>规格</th><th>已印数量</th><th>在途数量</th><th>单标成本</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<!-- ============ 审计 ============ -->
+<section id="tab-audit" class="tabpanel">
+  <div class="panel">
+    <h3>改动时间线</h3>
+    <div id="audit-list"></div>
+  </div>
+</section>
+</main>
+
+<!-- 修订向导弹窗 -->
+<div id="modal" class="modal-mask hidden">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="modal-title"></h3>
+      <button id="modal-close">×</button>
+    </div>
+    <div id="modal-body"></div>
+    <div class="modal-foot">
+      <button id="modal-cancel">取消</button>
+      <button id="modal-ok" class="primary">确认</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>
